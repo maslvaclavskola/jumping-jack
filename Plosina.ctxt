@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Plosina
+comment1.params=j\ x\ y\ w\ h
+comment1.target=Plosina(java.lang.String,\ int,\ int,\ int,\ int)
+comment2.params=g
+comment2.target=void\ paint(java.awt.Graphics2D)
+comment3.params=
+comment3.target=int\ getWidth()
+comment4.params=
+comment4.target=int\ getHeight()
+comment5.params=
+comment5.target=java.awt.geom.Rectangle2D.Double\ getBounds()
+comment6.params=
+comment6.target=void\ snizVydrz()
+numComments=7

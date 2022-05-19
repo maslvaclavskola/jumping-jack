@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Sprite
+comment1.params=jmeno\ x\ y
+comment1.target=Sprite(java.lang.String,\ int,\ int)
+comment10.params=x
+comment10.target=void\ setX(int)
+comment11.params=y
+comment11.target=void\ setY(int)
+comment2.params=g
+comment2.target=void\ paint(java.awt.Graphics2D)
+comment3.params=x\ y
+comment3.target=void\ setPosition(int,\ int)
+comment4.params=step
+comment4.target=void\ moveLeft(int)
+comment5.params=step
+comment5.target=void\ moveRight(int)
+comment6.params=step
+comment6.target=void\ moveUp(int)
+comment7.params=step
+comment7.target=void\ moveDown(int)
+comment8.params=
+comment8.target=int\ getX()
+comment9.params=
+comment9.target=int\ getY()
+numComments=12

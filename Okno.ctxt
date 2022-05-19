@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Okno
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=Okno()
+comment3.params=e
+comment3.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment4.params=e
+comment4.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment5.params=c
+comment5.target=void\ onGameCommand(GameCommand)
+comment6.params=
+comment6.target=void\ run()
+comment7.params=g
+comment7.target=void\ paint(java.awt.Graphics)
+comment8.params=g2d\ pozadi
+comment8.target=void\ pozadi(java.awt.Graphics2D,\ int)
+comment9.params=g2d\ pozadi
+comment9.target=void\ pozadi2(java.awt.Graphics2D,\ int)
+numComments=10

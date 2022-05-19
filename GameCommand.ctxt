@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GameCommand
+comment1.params=msg
+comment1.target=GameCommand(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

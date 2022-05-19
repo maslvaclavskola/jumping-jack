@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Multicast
+comment1.params=data
+comment1.target=void\ onGameCommand(GameCommand)
+comment2.params=
+comment2.target=Multicast()
+comment3.params=l
+comment3.target=void\ addGameCommandListener(GameCommandListener)
+comment4.params=
+comment4.target=void\ run()
+comment5.params=cmd
+comment5.target=void\ send(GameCommand)
+numComments=6
