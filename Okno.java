@@ -22,6 +22,8 @@ public class Okno extends JFrame
     private int variabilita = 150;
     private Multicast m = new Multicast();
     private boolean menu = true;
+    private Token t1;
+    
     public static void main(String[] args)
     {
         new Okno().setVisible(true);
@@ -36,6 +38,9 @@ public class Okno extends JFrame
         else{*/
             this.m1 = new Mrak("Mrak1",0,0,100);
             this.h1 = new Hrac("Hrac1",200,200);
+            this.t1= new Token("T1", rd.nextInt(770),rd.nextInt(400));
+            
+            
             int f;
             for(int i = 0;i<p.length;i++)
                 if(i==0){
@@ -120,6 +125,7 @@ public class Okno extends JFrame
         g2d.setColor(Color.GREEN);
         m1.setPosition(50+snimek,80);
         m1.paint(g2d);
+        t1.paint(g2d);
         g2d.setColor(Color.WHITE);
         if(vlevo){
             h1.moveLeft(STEP);
@@ -179,6 +185,14 @@ public class Okno extends JFrame
         }
         if(variabilita < 400)variabilita++;
         g.drawString("Skóre: "+s,50,50);
+        if(h1.collide(t1)){
+                s+=250;
+                t1 = new Token("T1", rd.nextInt(770),rd.nextInt(400));
+        }
+        
+        if(t1.getX()<0){
+            t1 = new Token("T1", rd.nextInt(770),rd.nextInt(400));
+        }else t1.moveLeft(aSTEP);
         //m1.setPosition(500,500);
     }
 

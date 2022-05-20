@@ -27,6 +27,9 @@ public class Hrac extends Sprite
     public boolean collideHead(Plosina p){
         return new Rectangle2D.Double(x,y,40,getHeight()/2).intersects(p.getBounds());
     }
+    public boolean collide(Token t){
+        return new Rectangle2D.Double(x,y,40,getHeight()).intersects(t.getBounds());
+    }
     public void setVelocity(double v){
         this.v=v;
     }
